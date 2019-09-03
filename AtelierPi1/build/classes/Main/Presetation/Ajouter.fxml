@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Main.Presetation.AjouterController">
+   <children>
+      <Label layoutX="91.0" layoutY="44.0" prefHeight="17.0" prefWidth="83.0" text="Lib :" />
+      <Label layoutX="91.0" layoutY="135.0" prefHeight="17.0" prefWidth="83.0" text="Prix :" />
+      <Button layoutX="192.0" layoutY="326.0" mnemonicParsing="false" onAction="#ajouter" text="ok" />
+      <Button layoutX="386.0" layoutY="326.0" mnemonicParsing="false" text="cancel" />
+      <TextField fx:id="libel" layoutX="226.0" layoutY="40.0" />
+      <TextField fx:id="prix" layoutX="226.0" layoutY="131.0" />
+   </children>
+</Pane>
